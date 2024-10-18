@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.montserrat-uniquifier{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+body{
+    font-family: Montserrat,sans-serif;
+  }
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.header{
+    background-color: rgb(225, 255, 143);
+    background-image: url(img/heder-1.svg), url(img/Star\ 2.svg), url(img/header-3.svg), url(img/heading-5.svg), url(img/heading-6.svg);
+    background-repeat: no-repeat;
+    background-position: 850px -350px, 63px 94px, 156px 69px, 948px 538px, 1013px 568px;
+    padding-bottom: 156px;
+    padding-top: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+&__content_box{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}    
+&__titel{
+    font-weight: 700;
+    font-size: 64px;
+    display: grid;
+    grid-template-columns: 66% 33%;
+}   
+&__heading{
+    font-weight: 400;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 66% 33%;
+} 
+&__butten{
+    width: 247px;
+    height: 66px;
+    background-color: black;
+    border-radius: 60px;
+    border: 1px solid rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 24px;
+    font-family: inherit;
+}   
+}
+.animated{
+    background-color: rgb(188, 236, 48);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 4%;
+} 
+.content{
+    background-color: rgb(32, 32, 39);
+    background-image: url(img/Star7.svg), url(img/Star__green_small.svg),url(img/Star_green-big.svg);
+    background-repeat: no-repeat;
+    background-position: 980px 77px, 25px 770px, 40px 822px;
+&__box{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding-bottom: 50px;
+}    
+&__info_box{
+    padding-top: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}  
+&__title{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 64px;
+} 
+&__heading{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 24px;  
+}   
+}
+.game__box{
+    display: flex;
+    gap: 32px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+&__box{
+    display: block;
+    background-color: white;
+    width: 378px;
+    border-radius: 30px;
+}    
+&__link{
+    text-decoration: none;
+    color: black;
+}    
+&__content_box{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 32px 32px 36px 32px;
+}   
+&__namber{
+    background-color: rgb(247, 247, 247);
+    width: 108px;
+    height: 36px;
+    border-radius: 52px ;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+}   
+&__title{
+    font-weight: 700;
+    font-size: 32px;
+}
+} 
+
+
+
+
+
+
+
