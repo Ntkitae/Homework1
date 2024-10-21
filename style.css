@@ -26,6 +26,9 @@ body {
   background-position: 850px -350px, 63px 94px, 156px 69px, 948px 538px, 1013px 568px;
   padding-bottom: 156px;
   padding-top: 196px;
+}
+.header__content {
+  max-width: 770px;
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -38,14 +41,13 @@ body {
 .header__titel {
   font-weight: 700;
   font-size: 64px;
-  display: grid;
-  grid-template-columns: 66% 33%;
+  letter-spacing: 0px;
+  line-height: 78px;
 }
 .header__heading {
   font-weight: 400;
   font-size: 24px;
-  display: grid;
-  grid-template-columns: 66% 33%;
+  max-width: 720px;
 }
 .header__butten {
   width: 247px;
@@ -57,6 +59,10 @@ body {
   font-weight: 600;
   font-size: 24px;
   font-family: inherit;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .animated {
@@ -136,4 +142,81 @@ body {
 .card__title {
   font-weight: 700;
   font-size: 32px;
+}
+
+@media (max-width: 1034px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .header {
+    background-image: url(img/Star\ 2.svg), url(img/header-3.svg), url(img/heading-5.svg), url(img/heading-6.svg), url(img/star-telrphone.svg);
+    background-repeat: no-repeat;
+    background-position: 63px 94px, 156px 69px, 600px 538px, 700px 568px, 670px -85px;
+    padding-bottom: 115px;
+  }
+  .animated {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .game__box {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .card__box {
+    height: 550px;
+  }
+}
+@media (max-width: 833px) {
+  .center {
+    padding-left: calc(50% - 188px);
+    padding-right: calc(50% - 188px);
+  }
+  .header {
+    background-image: url(img/Star-telephon-35px.svg), url(img/star-telephone-21px.svg), url(img/star-telrphone.svg), url(img/Star-telephone-18px.svg), url(img/Star-telephone-38px.svg);
+    background-repeat: no-repeat;
+    background-position: 37px 97px, 91px 64px, 215px -80px, 272px 557px, 303px 580px;
+    padding-top: 147px;
+    padding-bottom: 83px;
+    display: flex;
+    justify-content: center;
+  }
+  .header__content {
+    width: 343px;
+    gap: 36px;
+    align-items: center;
+  }
+  .header__content_box {
+    max-width: 296px;
+    align-items: center;
+  }
+  .header__titel {
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    width: 262px;
+    height: 245px;
+  }
+  .header__heading {
+    font-size: 16px;
+  }
+  .header__butten {
+    font-size: 16px;
+    width: 285px;
+    height: 55px;
+  }
+  .animated {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+  }
+  .content {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
