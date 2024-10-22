@@ -135,10 +135,15 @@ body{
     font-size: 32px;
 }
 } 
+.card__box:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    z-index: 1;
+}
 
 @import "tablet";
 @import "telephone";
-
+@import "script.js";
 
 
 
