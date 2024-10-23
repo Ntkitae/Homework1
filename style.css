@@ -144,6 +144,12 @@ body {
   font-size: 32px;
 }
 
+.card__box:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  z-index: 1;
+}
+
 @media (max-width: 1034px) {
   .center {
     padding-left: calc(50% - 393px);
@@ -218,5 +224,4 @@ body {
   .content {
     display: none;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
