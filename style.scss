@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     gap: 48px;
 }   
-&__content_box{
+&__box{
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -79,7 +79,7 @@ body{
     gap: 72px;
     padding-bottom: 50px;
 }    
-&__info_box{
+&__info{
     padding-top: 94px;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ body{
     font-size: 24px;  
 }   
 }
-.game__box{
+.game{
     display: flex;
     gap: 32px;
 }
@@ -139,6 +139,7 @@ body{
     transform: scale(1.1);
     cursor: pointer;
     z-index: 1;
+    transition: 2s
 }
 
 @import "tablet";

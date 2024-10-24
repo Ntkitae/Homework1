@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   gap: 48px;
 }
-.header__content_box {
+.header__box {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -86,7 +86,7 @@ body {
   gap: 72px;
   padding-bottom: 50px;
 }
-.content__info_box {
+.content__info {
   padding-top: 94px;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ body {
   font-size: 24px;
 }
 
-.game__box {
+.game {
   display: flex;
   gap: 32px;
 }
@@ -145,9 +145,10 @@ body {
 }
 
 .card__box:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   cursor: pointer;
   z-index: 1;
+  transition: 2s;
 }
 
 @media (max-width: 1034px) {
@@ -198,7 +199,7 @@ body {
     gap: 36px;
     align-items: center;
   }
-  .header__content_box {
+  .header__box {
     max-width: 296px;
     align-items: center;
   }
