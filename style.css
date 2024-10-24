@@ -61,6 +61,12 @@ body {
   font-family: inherit;
 }
 
+.header__butten:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: black;
+}
+
 .bold {
   font-weight: 600;
 }
@@ -123,7 +129,7 @@ body {
   text-decoration: none;
   color: black;
 }
-.card__content_box {
+.card__content {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -149,6 +155,63 @@ body {
   cursor: pointer;
   z-index: 1;
   transition: 2s;
+}
+
+.content__play {
+  background-color: rgb(32, 32, 39);
+  background-image: url(img/Star-play.svg), url(img/Star_green-big.svg), url(img/Star-play-bottom.svg), url(img/Star-play-bottom-big.svg);
+  background-repeat: no-repeat;
+  background-position: 1277px 47px, 1320px 126px, 1249px 3414px, 1319px 3366px;
+}
+
+.play {
+  padding-top: 46px;
+  padding-bottom: 144px;
+  display: flex;
+  gap: 72px;
+  flex-direction: column;
+}
+.play__cards {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.play__card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.play__box {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 48px 48px 48px 48px;
+}
+.play__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.play__title {
+  font-weight: 700;
+  font-size: 48px;
+}
+.play__info {
+  font-weight: 400;
+  font-size: 24px;
+  width: 457px;
+}
+
+.footer {
+  background-color: rgb(188, 236, 48);
+  padding-top: 60px;
+  padding-bottom: 61px;
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1034px) {
