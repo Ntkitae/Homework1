@@ -1,0 +1,47 @@
+@media (max-width: 833px){
+.center{
+    padding-left: calc(50% - 376px/2);
+    padding-right: calc(50% - 376px/2);
+}    
+.header{
+    background-image: url(img/Star-telephon-35px.svg), url(img/star-telephone-21px.svg), url(img/star-telrphone.svg), url(img/Star-telephone-18px.svg), url(img/Star-telephone-38px.svg);
+    background-repeat: no-repeat;
+    background-position: 37px 97px, 91px 64px, 215px -80px, 272px 557px, 303px 580px;
+    padding-top: 147px;
+    padding-bottom: 131px;
+    display: flex;
+    justify-content: center;
+&__content{
+   width: 343px;
+   gap: 36px;
+   align-items: center;
+}
+&__box{
+  max-width: 296px; 
+  align-items: center;
+}    
+&__titel{
+    font-size: 40px;  
+    line-height: 49px;   
+    text-align: center;
+    width: 262px;
+}   
+&__heading{
+    font-size: 16px;
+} 
+&__butten{
+    font-size: 16px;
+    width: 285px;
+    height: 55px;
+}
+}
+.animated{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.content{
+    display: none;
+}
+}

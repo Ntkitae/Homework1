@@ -11,7 +11,7 @@
 body{
     font-family: Montserrat,sans-serif;
   }
-.center{
+  .center{
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
@@ -22,10 +22,13 @@ body{
     background-position: 850px -350px, 63px 94px, 156px 69px, 948px 538px, 1013px 568px;
     padding-bottom: 156px;
     padding-top: 196px;
+&__content{
+    max-width: 770px;
     display: flex;
     flex-direction: column;
     gap: 48px;
-&__content_box{
+}   
+&__box{
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -33,15 +36,15 @@ body{
 &__titel{
     font-weight: 700;
     font-size: 64px;
-    display: grid;
-    grid-template-columns: 66% 33%;
+    letter-spacing: 0px;
+    line-height: 78px;
 }   
 &__heading{
     font-weight: 400;
     font-size: 24px;
-    display: grid;
-    grid-template-columns: 66% 33%;
+    max-width: 720px;
 } 
+
 &__butten{
     width: 247px;
     height: 66px;
@@ -53,6 +56,9 @@ body{
     font-size: 24px;
     font-family: inherit;
 }   
+}
+.bold{
+    font-weight: 600
 }
 .animated{
     background-color: rgb(188, 236, 48);
@@ -73,7 +79,7 @@ body{
     gap: 72px;
     padding-bottom: 50px;
 }    
-&__info_box{
+&__info{
     padding-top: 94px;
     display: flex;
     flex-direction: column;
@@ -90,7 +96,7 @@ body{
     font-size: 24px;  
 }   
 }
-.game__box{
+.game{
     display: flex;
     gap: 32px;
 }
@@ -129,6 +135,16 @@ body{
     font-size: 32px;
 }
 } 
+.card__box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 1;
+    transition: 2s
+}
+
+@import "tablet";
+@import "telephone";
+
 
 
 

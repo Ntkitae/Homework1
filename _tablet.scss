@@ -1,0 +1,35 @@
+@media (max-width: 1034px){
+.center{  padding-left:calc(50% - 393px);
+    padding-right:calc(50% - 393px);
+}    
+.header{
+    background-image:  url(img/Star\ 2.svg), url(img/header-3.svg), url(img/heading-5.svg), url(img/heading-6.svg), url(img/star-telrphone.svg);
+    background-repeat: no-repeat;
+    background-position: 63px 94px, 156px 69px, 600px 538px, 700px 568px, 670px -85px;
+    padding-bottom: 115px;
+}
+.animated{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.game__box{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+&__box{
+    height: 550px;
+}   
+}
+
+
+
+
+
+
+}
+
