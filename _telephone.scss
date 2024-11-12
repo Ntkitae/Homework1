@@ -44,4 +44,43 @@
 .content{
     display: none;
 }
+
+.content__title{
+font-size: 40px;
+line-height: 49px;
+}
+
+.play{
+    padding-bottom: 50px;
+   &__cards{
+    gap: 24px;
+   }
+   &__title{
+    font-size: 32px;
+    line-height: 39px;
+   }
+   &__info{
+    font-size: 16px;
+    line-height: 20px;
+   }
+   &__box{
+    gap: 32px;
+    padding: 29px 29px 33px 29px;
+    order: 2;
+   }
+   &__img{
+    min-width: 285px;
+    order: 1;
+   }
+   &__info{
+    width: 285px;
+   }
+
+}
+.footer{
+    font-size: 16px;
+    line-height: 29px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 }
