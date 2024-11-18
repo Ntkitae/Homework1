@@ -229,6 +229,10 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .game {
+    gap: 50px;
+    flex-direction: column;
+  }
   .game__box {
     display: flex;
     gap: 20px;
@@ -237,16 +241,28 @@ body {
   .card {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 60px;
   }
   .card__box {
     height: 550px;
   }
+  .play__box {
+    gap: 32px;
+    padding: 29px 29px 33px 29px;
+    order: 2;
+  }
+  .play__img {
+    width: 100%;
+    order: 1;
+  }
+  .play__card {
+    justify-content: center;
+  }
 }
 @media (max-width: 833px) {
   .center {
-    padding-left: calc(50% - 188px);
-    padding-right: calc(50% - 188px);
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .header {
     background-image: url(img/Star-telephon-35px.svg), url(img/star-telephone-21px.svg), url(img/star-telrphone.svg), url(img/Star-telephone-18px.svg), url(img/Star-telephone-38px.svg);
@@ -294,9 +310,15 @@ body {
   }
   .play {
     padding-bottom: 50px;
+    gap: 48px;
   }
   .play__cards {
     gap: 24px;
+    align-items: center;
+  }
+  .play__card {
+    width: 343px;
+    min-height: 343px;
   }
   .play__title {
     font-size: 32px;
