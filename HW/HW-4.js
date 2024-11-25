@@ -49,8 +49,10 @@ alert(`Колличество циклов: ${nam}`);
 */
 
 //Задание №6
+/*
 let dayFriday = 3;
 let allDay = 31;
 for (let i = dayFriday; i <= allDay; i += 7) {
     alert(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`)
 }
+    */
