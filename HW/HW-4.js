@@ -6,18 +6,18 @@ while(i<=2){
 } 
 
 //Задание №2
-let i=1
+let k=1
 while(i<=5){
-    alert(i)
-    i++;
+    alert(k)
+    k++;
   }
 //Задание №3
 
-let i=7
-while(i>=7){
-    alert(i);
+let a=7
+while(a>=7){
+    alert(a);
     i++
-    if(i==23){
+    if(a==23){
         break
     }
 } 
@@ -32,14 +32,14 @@ const obj={
 for(const key in obj){
     alert(`${key} - ${obj[key]}`);
 }
-*
+
 //Задание №5
 
-let n=1000;
+let w = 1000;
 let nam = 0 
-while (n >=50 ) {
-    n /= 2;
-    alert(n);
+while (w >=50 ) {
+    w /= 2;
+    alert(w);
     nam++;
 }
 alert(`Колличество циклов: ${nam}`); 
