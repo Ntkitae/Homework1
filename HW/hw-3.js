@@ -6,7 +6,7 @@ if(guestPassword==password){
    alert('Пароль введеён верно');
 }
 else{
-    alert('Пароль введён неверно')
+    alert('Пароль введён неверно');
 }
  
 task2 
