@@ -1,5 +1,5 @@
 function generateRandomNumber(){
-    return Math.floor(Math.floor(Math.random) * 100) + 1;
+    return Math.floor(Math.floor(Math.(random)) * 100) + 1;
 }
 
 function playGame(){
@@ -11,7 +11,7 @@ function playGame(){
 
        if (UserNumber > randomNumber) {
           alert('Ваше число больше');
-       } else if(Number(UserNumber) < randomNumber) {
+       } else if(UserNumber < randomNumber) {
           alert('Ваше число меньше');
        } else{
           alert('Вы угадали');
