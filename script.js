@@ -34,11 +34,18 @@ function arifmetic(){
 
    let a = Math.floor(Math.random() * 10) + 1; 
    let b  = Math.floor(Math.random() * 10) + 1;
-
+ 
    const task = `${a}, ${operator}, ${b}`;
-   return task;
    
-   userAnswer = prompt('task');
+   if (operator === '-') {
+      prompt = `Вычтите ${a} из ${b}`;
+   } else  if (operator === '+'){
+      prompt = `Сложите ${a} и ${b}`; 
+   } else if (operator === '*'){
+      prompt = `Умножте ${a} на ${b}`;
+   } else {
+      prompt = `Разделите ${a} на ${b}`;
+   }
 
 
 
