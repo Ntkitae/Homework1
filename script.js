@@ -129,3 +129,44 @@ function playQuiz() {
 
    alert("Игра окончена. Ваш счет: " + score);
 }
+
+function playRocksPaperScissors(){
+   const userChoise = prompt(`Выберите: камень, ножницы или бумага`);
+
+   if ( userChoise === null){
+      alert('Игра окончена.');
+      return;
+   }
+
+   const options = ["камень", "ножницы", "бумага"];
+   const userChoiseLower = userChoise.toLowerCase();
+
+   if (!options.includes(userChoiseLower)){
+      alert('Неверный ввод! Пожалуйста, выберите камень, ножницы или бумагу.');
+      return
+   }
+
+   const computerChoise = options[Math.floor(Math.random() * options.length)];
+
+   let result;
+   if (userChoiseLower === computerChoise){
+      result = "Ничья.";
+   } else if(
+      (userChoiseLower === "камень" && computerChoise === "ножницы") ||
+      (userChoiseLower === "ножницы" && computerChoise === "бумага") ||
+      (userChoiseLower === "бумага" && computerChoise === "камень")
+   ){
+      result = "Поздравляю, вы победили!";
+   } else{
+      result = "Увы, компьютер победил";
+   }
+
+   alert(`Ваш выбор: ${userChoiseLower}\nВыбор компьютера: ${computerChoise}\nРезультат: ${result}`)
+
+
+
+
+
+
+
+}
