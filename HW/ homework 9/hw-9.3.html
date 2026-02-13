@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="title">Задание 2</h1>
+<button id="button">Нажми</button>
+
+<script>
+    const button = document.querySelector('#button')
+    const title = document.querySelector('#title')
+
+    button.addEventListener('click', function(e){
+      title.textContent = 'Привет, мир!'
+    })
+</script>
+    
+</body>
+</html>

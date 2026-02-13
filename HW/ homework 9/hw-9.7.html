@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
+   <p class="descript">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
+   <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> 
+   <button class="btn">удалить текст</button>
+
+   <script>
+       const btnEl = document.querySelector('.btn');
+
+       btnEl.addEventListener('click',()  => {
+          const descriptionEl = document.querySelector ('.description');
+          descriptionEl.remove();
+       });
+
+   </script>
+</body>
+</html>
