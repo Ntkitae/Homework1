@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p class="description"> Старый текст </p> 
+   <p class="description"> Старый текст </p> 
+   <p class="description"> Старый текст </p> 
+
+   <script>
+    const allDescriptions = document.querySelectorAll('.description');
+
+    allDescriptions.forEach((description) => {
+        description.textContent = 'Новый текст'
+    });
+
+   </script> 
+</body>
+</html>

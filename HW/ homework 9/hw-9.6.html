@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn"> добавить элемент  </button>
+    <div class="content"> </div>
+    <script>
+        const btnEl = document.querySelector('.btn');
+        const contentEl = document.querySelector('.content');
+
+        btnEl.addEventListener('click', () => {
+         const headingEl = document.createElement('h2');
+         headingEl.textContent = 'новый абзац';
+         headingEl.classList.add('heading');
+         contentEl.appendChild(headingEl);
+        });
+  
+    </script>
+</body>
+</html>
